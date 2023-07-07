@@ -1,3 +1,22 @@
 -> Cookies are sent by server (just req once)
 -> Then that cookie will be stored in user's browser
 -> Now Each request from that browser to website will contain that cookie in header
+-> HTTP cookies generally follow the same-origin policy.
+   The same-origin policy is a security mechanism enforced by web browsers
+   that restricts how documents or scripts loaded from one origin (domain, protocol, and port)
+   can interact with resources from a different origin.
+   
+   When a web server sends a cookie to a browser,
+   the cookie is associated with a specific domain and, optionally, a path.
+   When subsequent requests are made to the same domain and path,
+   the browser includes the relevant cookies in the request headers.
+   This allows the server to identify and track the user session.
+
+-> You can checkout the documentation of your server-side language or framework and can find the options passed for Cookies
+
+*************CSRF attack
+-> Cookies will be automatically sent to domain from user behalf, so someone can use that url and trick you through clickbait by having hidden from
+   and using same cookie
+
+-> You can assume it, normally you were doing it directly communicating with website, but someone else did this from your behalf
+   through clickbaits
