@@ -1,0 +1,3 @@
+-> Cookies are sent by server (just req once)
+-> Then that cookie will be stored in user's browser
+-> Now Each request from that browser to website will contain that cookie in header
