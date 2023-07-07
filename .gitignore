@@ -1,0 +1,12 @@
+node_modules/
+jspm_packages/
+
+# Testing
+coverage
+
+# Environment files
+.env
+.env.*
+
+# Editor/IDE specific files
+.vscode/
