@@ -20,3 +20,22 @@
 
 -> You can assume it, normally you were doing it directly communicating with website, but someone else did this from your behalf
    through clickbaits
+
+
+*************Practical Usage of Cookies (session)
+-> By looking into benefits/behavior of cookies that they are sent with each request
+-> We can manage user sessions, we can remember about user, what will we do, we will store user values in DB and will client will be authorizes through an id which will be passed in cookies
+-> If id matches server will recognize user and will give appropriate recommendations etc, because server will extract data from DB depending on that id
+
+*************How to Trust Users (JWT)
+
+
+
+
+
+
+
+
+
+
+Reference/Course Link: https://www.youtube.com/watch?v=uXDnS5PcjCA&t=503s   
