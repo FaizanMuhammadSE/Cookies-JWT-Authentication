@@ -1,4 +1,5 @@
-node_modules/
+# Ignore node_modules in all child projects
+**/node_modules/
 jspm_packages/
 
 # Testing
